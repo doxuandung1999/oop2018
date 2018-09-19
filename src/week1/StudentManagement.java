@@ -7,23 +7,28 @@ public class StudentManagement {
 
     public  boolean sameGroup(Student s1, Student s2) {
         // TODO:
-        return s1.getGroup()==s2.getGroup();
+        return s1.getGroup().equals(s2.getGroup());
     }
 
     void studentsByGroup() {
         // TODO:
-        int n = students.length;
-        for(int i=0;i<n;i++)
+      System.out.println("danh sach lop INT 22041");
+        for(int i=0;students[i]!=null;i++)
         {
             if(this.students[i].getGroup().equals("INT 22041"))
             {
                 System.out.println(this.students[i].getInfo());
             }
-            else if(this.students[i].getGroup().equals("INT 22042"))
+        }
+        System.out.println("danh sach sinh vien lop INT 22042");
+        for(int i=0;students[i]!=null;i++)
+        {
+            if(this.students[i].getGroup().equals("INT 22042"))
             {
                 System.out.println(this.students[i].getInfo());
             }
         }
+
     }
 
     void removeStudent(String id) {
