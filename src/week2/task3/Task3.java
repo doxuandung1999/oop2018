@@ -5,7 +5,7 @@ public class Task3 {
 
 //TODO: khai báo 3 class tương ứng với 3 đối tượng thực tế ở dưới
 //class 1
-public class tamGiac{
+ class tamGiac{
     private int canh1;
     private int canh2;
     private  int canh3;
@@ -60,7 +60,7 @@ public class tamGiac{
 }
 
 //class 2
-public class box{
+ class box{
     private int dai;
     private int rong;
     private int cao;
@@ -107,7 +107,7 @@ public class box{
 }
 
 // class 3
-public class TongThong{
+ class TongThong{
     private String name;
     private int age;
     private String country;
