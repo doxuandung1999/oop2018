@@ -12,22 +12,21 @@ public class StudentManagement {
 
     void studentsByGroup() {
         // TODO:
-      System.out.println("danh sach lop INT 22041");
-        for(int i=0;students[i]!=null;i++)
-        {
-            if(this.students[i].getGroup().equals("INT 22041"))
-            {
-                System.out.println(this.students[i].getInfo());
-            }
-        }
-        System.out.println("danh sach sinh vien lop INT 22042");
-        for(int i=0;students[i]!=null;i++)
-        {
-            if(this.students[i].getGroup().equals("INT 22042"))
-            {
-                System.out.println(this.students[i].getInfo());
-            }
-        }
+
+//        int n = students.length;
+//        int a[] = new int[]
+//    for(int i=0;i<n;i++)
+//    {
+//        String s = this.students[i].getGroup();
+//        System.out.println("danh sach sinh vien lop " + s);
+//        for(int j=i;j<n;j++)
+//        {
+//            if(this.students[j].getGroup().equals(s))
+//            {
+//                System.out.println(this.students[j].getName());
+//            }
+//        }
+//    }
 
     }
 
@@ -79,7 +78,7 @@ public class StudentManagement {
      st.students[2].setEmail("dung@vnu.edu.vn");
 
      System.out.println(st.sameGroup(hocSinh1,hocSinh2) + "\n"+ st.sameGroup(hocSinh2,hocSinh3));
-     st.removeStudent("333");
+     st.removeStudent("222");
      System.out.println("danh sach luc sau : " + "\n");
      st.studentsByGroup();
 

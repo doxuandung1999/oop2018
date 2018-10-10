@@ -29,6 +29,7 @@ public class Fraction {
         this.denominator = denominator;
     }
 
+
     public Fraction add(Fraction other) {
         // TODO: Phương thức cộng hai phân số (this và other), trả về đối tượng Fraction mới
         Fraction fr = new Fraction(1,1);

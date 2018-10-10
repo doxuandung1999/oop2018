@@ -43,6 +43,6 @@ public class Week3Test {
         Assert.assertEquals("Bình thường" , Week3.calculateBMI(55 , 1.68));
     }
 
-    
+
 
 }
