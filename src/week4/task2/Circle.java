@@ -5,7 +5,7 @@ package week4.task2;
  */
 public class Circle extends Shape{
     private double radius;
-    private double Pi = 3.14;
+   final private double Pi = 3.14;
     public Circle(){
         this.radius = 1.0;
     }
