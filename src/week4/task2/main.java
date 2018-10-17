@@ -6,6 +6,7 @@ public class main {
         System.out.println(sh.toString());
         Circle ci = new Circle();
         System.out.println(ci.toString());
+        System.out.println(ci.getPerimeter());
         Rectangle re = new Rectangle();
         System.out.println(re.toString());
         Square sq = new Square();
